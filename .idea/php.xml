@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/styling/vendor/cangelis/pdf" />
+      <path value="$PROJECT_DIR$/styling/vendor/composer" />
+      <path value="$PROJECT_DIR$/styling/vendor/league/flysystem" />
+    </include_path>
+  </component>
+</project>
