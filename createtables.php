@@ -8,9 +8,9 @@
 
 $sql = <<<EOF
 
-    CREATE DATABASE Evernote;
+    --CREATE DATABASE Evernote;
     
-    USE Evernote;
+    USE evernote;
     
     CREATE TABLE `category` (
         `cat_id` int(11) NOT NULL,
@@ -145,5 +145,7 @@ if ($connection->connect_error) {
 
 if ($connection->query($sql)) {
     echo "Database and stuff created succesfully!";
+} else {
+    die("query failed: " . $conn->connect_error);
 }
 
