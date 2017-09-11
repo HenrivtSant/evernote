@@ -137,7 +137,7 @@ $sql = <<<EOF
 
 EOF;
 
-$connection = new mysqli("mysql://mysql:3306/", "root", "rootroot");
+$connection = new mysqli("10.130.18.90", "root", "rootroot");
 
 if ($connection->connect_error) {
     die("connection failed: " . $conn->connect_error);
