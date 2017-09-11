@@ -7,7 +7,7 @@
  */
 
 // Standaard login data voor connect naar database
-$host = 'localhost';
+$host = 'mysql://mysql:3306/';
 $usernameDB = 'root';
-$passwordDB = "";
+$passwordDB = "rootroot";
 $db = 'evernote';
