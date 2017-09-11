@@ -144,6 +144,6 @@ if ($connection->connect_error) {
 }
 
 if ($connection->query($sql)) {
-    echo "Database and stuff created succesfully";
+    echo "Database and stuff created succesfully!";
 }
 
